@@ -51,46 +51,41 @@
   		</div>
   		<div class="filters">
   			<h2 class="subtitle">Производители:</h2>
-  			<form action="#" method="post">
-        <div class="filter-item">
-  				  <label>
-  					 <input class="switch-filter" type="radio" name="baxter-of-california">Baxter of California
-  				  </label><br>
-  				  <label>
-  					 <input class="switch-filter" type="radio" name="natty">Mr Natty
-  				  </label><br>
-  				  <label>
-  					 <input class="switch-filter" type="radio" name="suavecito">Suavecito
-  				  </label><br>
-  				  <label>
-  					 <input class="switch-filter" type="radio" name="malin-goetz">Malin+Goetz
-  				  </label><br>
-  				  <label>
-  					 <input class="switch-filter" type="radio" name="murrays">Murray’s
-  				  </label><br>
-  				  <label>
-  					 <input class="switch-filter" type="radio" name="american-crew">American Crew
-  				  </label>
-  			</div>
-  		</div>
-  		<div class="product-groups">
-  			<h2 class="subtitle">Группы товаров:</h2>
-  			<div class="product-item">
-				<label>
-  					<input class="switch-product-group" type="radio" name="shaving-accessories">Бритвенные принадлежности
+  			<form class="fabricator-and-product-groups" action="#" method="post">
+          <label>
+  					<input class="switch-filter" type="radio" value="" name="">Baxter of California
   				</label><br>
   				<label>
-  					<input class="switch-product-group" type="radio" name="goods-for-care">Средства для ухода
+  					<input class="switch-filter" type="radio" value="" name="">Mr Natty
   				</label><br>
   				<label>
-  					<input class="switch-product-group" type="radio" name="accessories">Аксессуары
+  					<input class="switch-filter" type="radio" value="" name="">Suavecito
+  				</label><br>
+  				<label>
+  					<input class="switch-filter" type="radio" value="" name="">Malin+Goetz
+  				</label><br>
+  				<label>
+  					<input class="switch-filter" type="radio" value="" name="">Murray’s
+  				</label><br>
+  				<label>
+  					<input class="switch-filter" type="radio" value="" name="">American Crew
   				</label>
-  			</div>
-  		</div>
-      <button type="button">Показать</button>
-      </form>
-  		<div class="catalog">
-  			<article class="catalog-item">
+          <h2 class="subtitle">Группы товаров:</h2>
+          <label>
+  					<input class="switch-product-group" type="radio" value="" name="">Бритвенные принадлежности
+  				</label><br>
+  				<label>
+  					<input class="switch-product-group" type="radio" value="" name="">Средства для ухода
+  				</label><br>
+  				<label>
+  					<input class="switch-product-group" type="radio" value="" name="">Аксессуары
+  				</label>
+          <button class="btn" type="submit" name="" value="" formaction="#">Показать</button>
+        </form>
+      </div>
+  		<div class="catalog-container">
+        <div class="catalog">
+  			 <article class="catalog-item">
   				<div class="photo-goods">
   					<img src="http://placehold.it/220x170" alt="Набор для путешествий «Baxter of California»" width="220" height="170">
   				</div>
@@ -99,18 +94,18 @@
   				  <b>2900 руб.</b>
   				  <a class="btn" href="#">Купить</a>
           </div>
-  			</article>
-  			<article class="catalog-item">
+  			 </article>
+  			 <article class="catalog-item">
   				<div class="photo-goods">
   					<img src="http://placehold.it/220x170" alt="Увлажняющий кондиционер «Baxter of California»" width="220" height="170">
   				</div>
-  				<h3>Увлажняющий кондиционер «Baxter of California»</h3>
+  			  <h3>Увлажняющий кондиционер «Baxter of California»</h3>
           <div class="price-and-buy">
   				  <b>750 руб.</b>
   				  <a class="btn" href="#">Купить</a>
           </div>
-  			</article>
-  			<article class="catalog-item">
+  			 </article>
+  			 <article class="catalog-item">
   				<div class="photo-goods">
   					<img src="http://placehold.it/220x170" alt="Гель для волос «SUAVECITO»" width="220" height="170">
   				</div>
@@ -119,8 +114,8 @@
   				  <b>290 руб.</b>
   				  <a class="btn" href="#">Купить</a>
           </div>
-  			</article>
-  			<article class="catalog-item">
+  			 </article>
+  			 <article class="catalog-item">
   				<div class="photo-goods">
   					<img src="http://placehold.it/220x170" alt="Глина для укладки волос «American crew»" width="220" height="170">
   				</div>
@@ -129,8 +124,8 @@
   				  <b>500 руб.</b>
   				  <a class="btn" href="#">Купить</a>
           </div>
-  			</article>
-  			<article class="catalog-item">
+  			 </article>
+  			 <article class="catalog-item">
   				<div class="photo-goods">
   					<img src="http://placehold.it/220x170" alt="Гель для волос «AMERICAN CREW»" width="220" height="170">
   				</div>
@@ -139,8 +134,8 @@
   				  <b>300 руб.</b>
   				  <a class="btn" href="#">Купить</a>
           </div>
-  			</article>
-  			<article class="catalog-item">
+  			 </article>
+  			 <article class="catalog-item">
   				<div class="photo-goods">
   					<img src="http://placehold.it/220x170" alt="Набор для бритья «Baxter of California»" width="220" height="170">
   				</div>
@@ -149,14 +144,15 @@
   				  <b>3900 руб.</b>
   				  <a class="btn" href="#">Купить</a>
           </div>
-  			</article>
-  		</div>
-		<div class="switch pages">
-			<a href="#">1</a>
-			<a href="#">2</a>
-			<a href="#">3</a>
-			<a href="#">4</a>
-		</div>
+  			 </article>
+  		  </div>
+		    <div class="switch-pages">
+			   <a href="#">1</a>
+			   <a href="#">2</a>
+			   <a href="#">3</a>
+			   <a href="#">4</a>
+		    </div>
+      </div>
   	</main>
   	<footer class="main-footer">
   		<div class="container">
