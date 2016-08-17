@@ -16,4 +16,105 @@ h2 {
 	font-size: 24px;
 	line-height: 30px;
 }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  float: left;
+  margin-right: 20px;
+  height: 24px;
+  width: 111px;
+}
+
+.main-navigation {
+  float: left;
+  width: 640px;
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  min-height: 70px;
+  width: 140px;
+}
+
+.main-header {
+  margin-bottom: 55px;
+}
+
+.breadcrumbs {
+  min-height: 60px;
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+.fabricator-and-product-groups {
+  float: left;
+  width: 220px;
+  min-height: 600px;
+}
+
+/*.catalog-container -- delete?*/
+
+
+.catalog {
+  float: right;
+  width: 700px;
+  min-height: 600px;
+  font-size: 0px;
+}
+
+.catalog-item {
+  display: inline-block;
+  width: 220px;
+  min-height: 286px;
+  vertical-align: top;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.switch-pages {
+  width: 193px;
+  min-height: 43px;
+  margin-left: 240px;
+}
+
+.main-footer {
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
