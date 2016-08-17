@@ -53,8 +53,8 @@ h2 {
 }
 
 .breadcrumbs {
-  min-height: 60px;
-  width: 300px;
+  min-height: 70px;
+  width: 640px;
   margin-bottom: 60px;
 }
 
@@ -62,6 +62,7 @@ h2 {
   float: left;
   width: 220px;
   min-height: 600px;
+  margin-top: -25px;
 }
 
 /*.catalog-container -- delete?*/
@@ -94,7 +95,7 @@ h2 {
 }
 
 .main-footer {
-  margin-top: 50px;
+  margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -118,3 +119,42 @@ h2 {
   min-height: 90px;
 }
 
+
+.photos {
+  float: left;
+  width: 498px;
+  min-height: 660px;
+  margin-right: 60px;
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+.status-and-price {
+  float: left;
+  width: 380px;
+  min-height: 245px;
+  margin-bottom: 65px;
+}
+
+.other-photos-item {
+  display: inline-block;
+  width: 160px;
+  min-height: 150px;
+}
+
+.other-photos {
+  font-size: 0px;
+}
+
+.description {
+  float: left;
+  width: 380px;
+  height: 175px;
+}
+
+
+.availability {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-right: 170px;
+}

@@ -47,34 +47,34 @@
       <form class="fabricator-and-product-groups" id="filter" action="#" method="post">
         <h2>Производители:</h2>
         <label>
-  		  <input class="switch-filter" type="radio" value="" name="">Baxter of California
+  		  <input class="switch-filter" type="checkbox" value="Baxter-of-California" name="fabricator">Baxter of California
   		</label><br>
   		<label>
-  		  <input class="switch-filter" type="radio" value="" name="">Mr Natty
+  		  <input class="switch-filter" type="checkbox" value="Mr-Natty" name="fabricators">Mr Natty
   		</label><br>
   		<label>
-  		  <input class="switch-filter" type="radio" value="" name="">Suavecito
+  		  <input class="switch-filter" type="checkbox" value="Suavecito" name="fabricators">Suavecito
   		</label><br>
   		<label>
-  		  <input class="switch-filter" type="radio" value="" name="">Malin+Goetz
+  		  <input class="switch-filter" type="checkbox" value="Malin+Goetz" name="fabricators">Malin+Goetz
   		</label><br>
         <label>
-  		  <input class="switch-filter" type="radio" value="" name="">Murray’s
+  		  <input class="switch-filter" type="checkbox" value="Murray’s" name="fabricators">Murray’s
   		</label><br>
   		<label>
-  		  <input class="switch-filter" type="radio" value="" name="">American Crew
+  		  <input class="switch-filter" type="checkbox" value="American-crew" name="fabricators">American Crew
   		</label>
         <h2>Группы товаров:</h2>
         <label>
-  		  <input class="switch-product-group" type="radio" value="" name="">Бритвенные принадлежности
+  		  <input class="switch-product-group" type="radio" value="shaving-accessories" name="product-groups">Бритвенные принадлежности
   		</label><br>
   		<label>
-  		  <input class="switch-product-group" type="radio" value="" name="">Средства для ухода
+  		  <input class="switch-product-group" type="radio" value="for-the-care" name="product-groups">Средства для ухода
   		</label><br>
   		<label>
-  		  <input class="switch-product-group" type="radio" value="" name="">Аксессуары
+  		  <input class="switch-product-group" type="radio" value="accesories" name="product-groups">Аксессуары
   		</label>
-        <button class="btn" type="submit" name="" value="" forma="filter">Показать</button>
+        <button class="btn" type="submit" form="filter">Показать</button>
       </form>
       <div class="catalog-container">
         <div class="catalog">
@@ -117,7 +117,7 @@
   		  <article class="catalog-item">
             <a href="#">
   		      <div class="photo-goods">
-  		        <img src="img/shop-item-4.jpg" alt="Глина для укладки волос «American crew»" width="220" heigh  t="165">
+  		        <img src="img/shop-item-4.jpg" alt="Глина для укладки волос «American crew»" width="220" height="165">
   		      </div>
   		      <h3>Глина для укладки волос «American crew»</h3>
             </a>
@@ -141,7 +141,7 @@
   		  <article class="catalog-item">
             <a href="#">
   		      <div class="photo-goods">
-  		        <img src="img/shop-item-6.jpg" alt="Набор для бритья «Baxter of California»" width="220" heigh  t="165">
+  		        <img src="img/shop-item-6.jpg" alt="Набор для бритья «Baxter of California»" width="220" height="165">
   		      </div>
   		      <h3>Набор для бритья «Baxter of California»</h3>
             </a>
@@ -160,7 +160,7 @@
       </div>
   	</main>
   	<footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <div class="footer-contacts">
   		  <p>Барбершоп «Бородинский»<br>
 		    Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
